@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ideas Board</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="intro-overlay">
+        <div style="text-align: center;">
+            <h2>Welcome to the Mind Mapping App</h2>
+            <p>Click anywhere to start creating your ideas!</p>
+        </div>
+    </div>
+
+    <button class="Download_Btn" onclick="takeScreenshot()">Download Screenshot</button>
+
+    <div id="screenshot-target">
+        <h1 id="heading">Mind Mapping</h1>
+        <div class="container"></div>
+    </div>
+
+    <script src="logic.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js"></script>
+
+</body>
+
+</html>
